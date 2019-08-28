@@ -1,0 +1,38 @@
+create databases fang charset=utf8;
+
+
+
+CREATE TABLE `Newhouse` (
+  `id` int(255) unsigned NOT NULL AUTO_INCREMENT primary key,
+  `province` varchar(30) ,
+  `city` varchar(30) ,
+  `price` varchar(30) ,
+  `state` varchar(50),
+  `area` varchar(30),
+  `address` varchar(30),
+  `rooms` varchar(30) ,
+  `cell_name` varchar(50),
+`origin_url` varchar(50) 
+
+) ENGINE=InnoDB  CHARSET=utf8;
+
+
+CREATE TABLE `Esfhouse` (
+  `id` int(255) unsigned NOT NULL AUTO_INCREMENT primary key,
+  `province` varchar(30) ,
+  `city` varchar(30) ,
+ `cell_name` varchar(50),
+ `address` varchar(30), 
+ `rooms` varchar(30) ,
+ `floor` varchar(30) ,
+ `toward` varchar(30) ,
+ `year` varchar(30) ,
+`area` varchar(30),
+ `price` varchar(30) ,
+  `unit` varchar(50),
+`origin_url` varchar(50) 
+  
+) ENGINE=InnoDB  CHARSET=utf8;
+
+
+
